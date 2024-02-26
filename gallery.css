@@ -41,7 +41,7 @@ h1::before{
     }
 }
 .top-content{
-    background-color: grey;
+    background-color: whitesmoke;
     width: 90%;
     margin: 0 auto 20px auto;
     height: 60px;
@@ -68,7 +68,8 @@ label{display: inline-block;
     transition:color 0.5s;
 }
 label:hover{
-    color: red;
+    color: black;
+    
 }
 .photo-gallery{
     width: 90%;
@@ -82,10 +83,11 @@ label:hover{
     height: 230px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px lightgrey;
-    cursor: pointer;
+    cursor: pointer; 
+    transition: 0.5s;
 }
 .pic img{
-    width: 350px;
+    width: 330px;
     height: 100%;
     border-radius: 10px;
     transition: 0.5s;
